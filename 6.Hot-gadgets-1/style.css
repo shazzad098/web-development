@@ -1,0 +1,55 @@
+.logo{
+    top: 10px;
+    left: 56px;
+    position: relative;
+}
+
+.top-banner{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+}
+.article_h1{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.article_p{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.buy-now-button{
+    position: absolute;
+    top: 229px;
+    left: 100px;
+}
+hr{
+    border: none;
+}
+.carousel-indicators
+{
+    color: orange;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+}
+.ctg{
+    text-align: center;
+}
+.hr{
+    height: 7px;
+    border: none;
+    border-radius: 10px;
+    background:linear-gradient(to left, orange, rgb(255, 217, 0)) ;
+}
+.row_1{
+    top: 50%;
+    padding: 5%;
+}
