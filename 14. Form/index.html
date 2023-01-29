@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="form-table">
+        <div class="html-form">
+            <h2>HTML Forms</h2>
+        </div>
+    <!--Form Element-->
+    <form  class="form">
+        <div class="name-part">
+            <label for="fname" class="name">First Name:</label>
+            <br>
+            <input type="text" name="fname" id="fname" value="shazzad" placeholder="First name">
+            <br>
+            <label for="lname" class="name">Last Name:</label>
+            <br>
+            <input type="text" name="lname" id="lname" value="prince" placeholder="Last name">
+            <br>
+        </div>
+
+        <!--Radio Element-->
+        <p><b>Select your favourite programming langugae:</b></p>
+        <input type="radio" name="fav-lan" value="HTML">
+            <label for="HTML">HTML</label><br>
+        <input type="radio" name="fav-lan" value="CSS">
+            <label for="CSS">CSS</label><br>
+        <input type="radio" name="fav-lan" value="Javascript">
+            <label for="Javascript">Javascript</label><br><br>
+
+        <!--checkbox element-->
+        <p><b>Vehicle section:</b></p>
+        <input type="checkbox" name="vehicle" value="bike">
+            <label for="vehicle">I have a bike</label><br>
+        <input type="checkbox" name="vehicle" value="car">
+            <label for="vehicle">I have a car</label><br>
+        <input type="checkbox" name="vehicle" value="boat">
+            <label for="vehicle">I have a boat</label><br>
+        <input type="checkbox" name="vehicle" value="nothing">
+            <label for="vehicle">I dont have any vehicle</label><br><br>
+        
+        <!--textarea-->
+        <p><label for="message">Write any message you like</label></p>
+        <textarea name="message" id="message" cols="50" rows="4" placeholder="Type a message.."></textarea><br>
+        <!--button element-->
+        <input type="button" value="submit">
+    </form>
+    </div>
+</body>
+</html>
