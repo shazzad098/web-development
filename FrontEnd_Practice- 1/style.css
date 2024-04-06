@@ -1,0 +1,176 @@
+:root {
+    --button-color: #4C5FD5;
+    --header-color: #dadbf1;
+    --dark-color: #000000;
+    --light-color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 100vh; */
+    /* width: 100%; */
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+}
+.navbar .container-fluid {
+    padding-left: 100px; /* Add padding to the left side */
+    padding-right: 100px; /* Add padding to the right side */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.navbar .navbar-brand {
+    color: var(--light-color);
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.navbar .form-control {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.navbar .btn {
+    color: var(--light-color);
+}
+
+
+.header {
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    background-color: var(--header-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .header h1 {
+  margin-bottom: 20px;  
+} */
+
+.input-container {
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: var(--dark-color);
+}
+
+/* Option 1 styles (uncomment if using placeholder) */
+/* .input-container input[type="text"]::placeholder {
+  color: #ccc;
+  opacity: 0.5;
+} */
+
+/* Option 2 styles (for label element) */
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+.first-page{
+    /* display: flex; */
+    width: 100vw;
+    height: 100%;
+}
+
+.page-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    height: 50%;
+}
+
+.left-side,
+.right-side {
+    margin-top: 15px; /* Adjust this value to your preference */
+    margin-bottom: 15px; /* Adjust this value to your preference */
+}
+.icn-txt {
+    display: flex;
+    gap: 20px; /* Adjust this value to your preference */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.icn{
+    font-size: 30px;
+}
+
+.txt h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.txt p{
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.txt button{
+    background-color: transparent;
+    color: var(--button-color);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 20px; /* Increase padding for better spacing */
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+
+}
+
+footer .list {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+    float: left;
+}
+
+.list ul {
+    padding: 0; /* Remove default padding from ul */
+    margin: 0; /* Remove default margin from ul */
+}
+
+.list ul li {
+    list-style: none;
+    float: left;
+}
+
+.copy {
+    flex-basis: 100%; /* Ensure copyright text spans full width */
+}
